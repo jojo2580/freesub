@@ -5,108 +5,56 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇬 新加坡 (Singapore) 01 - xiaohe
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 02 - xiaohe
-  type: ss
-  server: 176.97.64.144
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: TFElG2FVqyqG
-  udp: true
-- name: 🇸🇬 新加坡 (Singapore) 03 - xiaohe
-  type: vmess
-  server: 149.88.23.202
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 04 - xiaohe
-  type: ss
-  server: 146.235.20.146
-  port: 56927
-  cipher: 2022-blake3-chacha20-poly1305
-  password: dslI58qn4pSS0YD4peSYgUTbYtJypzIr+Wvt4uLXLNI=
-  udp: true
-- name: 🇸🇬 新加坡 (Singapore) 05 - xiaohe
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 06 - xiaohe
-  type: vless
-  server: 134.122.154.210
-  port: 443
-  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 07 - xiaohe
-  type: ss
-  server: 176.97.64.144
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: TFElG2FVqyqG
-  udp: true
-- name: 🇸🇬 新加坡 (Singapore) 08 - xiaohe
-  type: vless
-  server: 134.122.154.210
-  port: 443
-  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 09 - xiaohe
-  type: vless
-  server: 134.122.154.210
-  port: 443
-  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 10 - xiaohe
   type: ss
   server: 51.79.159.206
   port: 2083
   cipher: 2022-blake3-aes-256-gcm
   password: cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:GwnAdcDzLc/VJxfSrsz2icwLQvyHJn1fRZA/4ZY2HTw=
   udp: true
-- name: 🇸🇬 新加坡 (Singapore) 11 - xiaohe
-  type: vmess
-  server: 149.88.23.202
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+- name: 🇸🇬 新加坡 (Singapore) 02 - xiaohe
+  type: vless
+  server: 172.66.140.62
+  port: 8880
+  uuid: 160ca353-676d-4b7f-a041-0289e388b865
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 12 - xiaohe
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: proud-cloud-7bdd.208-a52.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 03 - xiaohe
+  type: ss
+  server: 176.97.64.144
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: TFElG2FVqyqG
+  udp: true
+- name: 🇸🇬 新加坡 (Singapore) 04 - xiaohe
+  type: vless
+  server: 134.122.154.210
+  port: 443
+  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 13 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 05 - xiaohe
+  type: vless
+  server: 134.122.154.210
+  port: 443
+  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 06 - xiaohe
+  type: ss
+  server: 146.235.20.146
+  port: 56927
+  cipher: 2022-blake3-chacha20-poly1305
+  password: dslI58qn4pSS0YD4peSYgUTbYtJypzIr+Wvt4uLXLNI=
+  udp: true
+- name: 🇸🇬 新加坡 (Singapore) 07 - xiaohe
   type: vless
   server: 172.64.150.28
   port: 2082
@@ -119,7 +67,44 @@ proxies:
     path: /fp
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇸🇬 新加坡 (Singapore) 14 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 08 - xiaohe
+  type: vless
+  server: 142.91.102.35
+  port: 443
+  uuid: 54a9c202-cfe9-4bb8-826c-653a52a96c6d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 8.sahanwickramasinghe.me
+- name: 🇸🇬 新加坡 (Singapore) 09 - xiaohe
+  type: vless
+  server: 172.66.214.247
+  port: 8880
+  uuid: e7f6f783-6754-4228-a5d0-aeed84b9949a
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: sweet-sun-c70f.317-ba5.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 10 - xiaohe
+  type: vless
+  server: 134.122.154.210
+  port: 443
+  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 11 - xiaohe
+  type: ss
+  server: 176.97.64.144
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: TFElG2FVqyqG
+  udp: true
+- name: 🇸🇬 新加坡 (Singapore) 12 - xiaohe
   type: vmess
   server: 149.88.23.202
   port: 18000
@@ -129,6 +114,29 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 13 - xiaohe
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 14 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: 2388e166-3890-33ae-f77e-efac00000002
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
+    headers:
+      Host: netlivpn4813.ddhshhshs.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 15 - xiaohe
   type: vless
   server: 104.17.3.81
@@ -145,13 +153,28 @@ proxies:
       Host: nautica-cff.kloningstrife002.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 16 - xiaohe
   type: vless
-  server: 134.122.154.210
-  port: 443
-  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
+  server: 188.114.97.6
+  port: 8080
+  uuid: f2f4e2dc-3e7b-402f-a461-b48acc6aa310
   udp: true
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoid2JBOTRVclNMOVdBSVQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+    headers:
+      Host: steep-bonus-8e6a.amirhon1376.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 17 - xiaohe
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 18 - xiaohe
   type: vless
   server: 162.159.156.214
   port: 8880
@@ -164,20 +187,17 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
       Host: soft-band-8da6.426.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 18 - xiaohe
-  type: vless
-  server: 172.66.214.247
-  port: 8880
-  uuid: e7f6f783-6754-4228-a5d0-aeed84b9949a
+- name: 🇸🇬 新加坡 (Singapore) 19 - xiaohe
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: sweet-sun-c70f.317-ba5.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 19 - xiaohe
+- name: 🇸🇬 新加坡 (Singapore) 20 - xiaohe
   type: vless
   server: 8.sahanwickramasinghe.me
   port: 443
@@ -186,34 +206,14 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: 8.sahanwickramasinghe.me
-- name: 🇸🇬 新加坡 (Singapore) 20 - xiaohe
-  type: vmess
-  server: 149.88.23.202
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+- name: 🇸🇬 新加坡 (Singapore) 21 - xiaohe
+  type: vless
+  server: 134.122.154.210
+  port: 443
+  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 21 - xiaohe
-  type: vless
-  server: 142.91.102.35
-  port: 443
-  uuid: 54a9c202-cfe9-4bb8-826c-653a52a96c6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 8.sahanwickramasinghe.me
-- name: 🇸🇬 新加坡 (Singapore) 22 - xiaohe
-  type: vless
-  server: 142.91.102.35
-  port: 443
-  uuid: 54a9c202-cfe9-4bb8-826c-653a52a96c6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 8.sahanwickramasinghe.me
 proxy-groups:
 - name: PROXIES
   type: select
@@ -240,7 +240,6 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 19 - xiaohe
   - 🇸🇬 新加坡 (Singapore) 20 - xiaohe
   - 🇸🇬 新加坡 (Singapore) 21 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 22 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -267,6 +266,5 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 19 - xiaohe
   - 🇸🇬 新加坡 (Singapore) 20 - xiaohe
   - 🇸🇬 新加坡 (Singapore) 21 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 22 - xiaohe
 rules:
 - MATCH,PROXIES
