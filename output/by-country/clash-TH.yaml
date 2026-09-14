@@ -20,17 +20,17 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇹🇭 TH 02 - xiaohe
   type: vless
-  server: www.zsu.gov.ua
-  port: 8880
-  uuid: 2756d45c-2d91-4783-8114-ad1e128799ba
+  server: 103.86.49.57
+  port: 80
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
+    path: /ws
     headers:
-      Host: blue-breeze-e33c.261.workers.dev
+      Host: aIs.SpEeDtEsT.nEt
 - name: 🇹🇭 TH 03 - xiaohe
   type: vmess
   server: 118.193.57.167
