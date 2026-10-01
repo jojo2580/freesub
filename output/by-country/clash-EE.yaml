@@ -6,18 +6,13 @@ log-level: info
 proxies:
 - name: 🇪🇪 EE 01 - xiaohe
   type: vless
-  server: 104.19.148.121
-  port: 443
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 05agj.gkef.zhs.hh.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: 05agj.gkef.zhs.hh.vavava.kdns.fr
+  servername: estproxy4.lockdwn.com
 proxy-groups:
 - name: PROXIES
   type: select
